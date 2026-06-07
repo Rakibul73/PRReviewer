@@ -1,0 +1,30 @@
+{
+  "name": "prreviewer",
+  "version": "1.0.0",
+  "description": "AI-powered GitHub PR review bot",
+  "scripts": {
+    "build": "nest build",
+    "start": "node dist/main",
+    "start:dev": "nest start --watch",
+    "lint": "eslint \"{src,apps,libs}/**/*.ts\""
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.24.0",
+    "@google/generative-ai": "^0.21.0",
+    "@nestjs/common": "^10.0.0",
+    "@nestjs/config": "^3.0.0",
+    "@nestjs/core": "^10.0.0",
+    "@nestjs/platform-fastify": "^10.0.0",
+    "@octokit/auth-app": "^7.0.0",
+    "@octokit/rest": "^20.0.0",
+    "@octokit/webhooks": "^13.0.0",
+    "groq-sdk": "^0.9.1",
+    "reflect-metadata": "^0.2.0",
+    "rxjs": "^7.8.0"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^10.0.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
