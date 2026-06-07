@@ -12,7 +12,7 @@ Set `AI_PROVIDER` in your `.env` to choose the backend:
 |-------|-----------|-------|
 | `anthropic` *(default)* | `claude-sonnet-4-20250514` | Best quality, paid |
 | `groq` | `llama-3.3-70b-versatile` | Fastest, free tier available |
-| `gemini` | `gemini-2.0-flash` | Google, free tier available |
+| `gemini` | `gemini-2.5-flash` | Google, free tier available |
 
 Only the API key for the **selected** provider needs to be set. The others are ignored.
 

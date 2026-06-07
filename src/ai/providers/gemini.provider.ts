@@ -8,7 +8,7 @@ export class GeminiProvider implements AiProvider {
   private readonly logger = new Logger('GeminiProvider');
 
   // Best Gemini model for code tasks
-  private readonly model = 'gemini-2.0-flash';
+  private readonly model = 'gemini-2.5-flash';
 
   constructor(apiKey: string) {
     this.genAI = new GoogleGenerativeAI(apiKey);
